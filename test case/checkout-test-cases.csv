@@ -1,0 +1,7 @@
+Test Case ID,Module,Test Scenario,Test Steps,Expected Result,Actual Result,Status,Priority
+TC_CHECKOUT_001,Checkout,Proceed to checkout,Add a product and click Checkout,User should be redirected to checkout information page,User was redirected to checkout information page,Pass,High
+TC_CHECKOUT_002,Checkout,Submit valid customer information,Enter valid first name last name and postal code then continue,User should proceed to order overview,User proceeded to order overview,Pass,High
+TC_CHECKOUT_003,Checkout,Validate empty customer information,Leave checkout information fields empty and click Continue,Validation messages should be displayed,Validation messages were displayed,Pass,High
+TC_CHECKOUT_004,Checkout,Verify order overview,Enter valid information and proceed to overview,Selected product and order details should be displayed,Order details were displayed correctly,Pass,High
+TC_CHECKOUT_005,Checkout,Complete order,Review order and click Finish,Order should be completed and confirmation message displayed,Order completion confirmation was displayed,Pass,High
+TC_CHECKOUT_006,Checkout,Cancel checkout,Start checkout and click Cancel,User should return to the products page,User returned to the products page,Pass,Medium

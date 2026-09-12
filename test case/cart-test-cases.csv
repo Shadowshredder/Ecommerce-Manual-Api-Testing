@@ -1,0 +1,6 @@
+Test Case ID,Module,Test Scenario,Test Steps,Expected Result,Actual Result,Status,Priority
+TC_CART_001,Cart,Add product to cart,Login and select a product then click Add to cart,Selected product should be added to cart,Product was added to cart successfully,Pass,High
+TC_CART_002,Cart,View cart,Add a product and open the cart,Selected product should be displayed in the cart,Selected product was displayed in the cart,Pass,High
+TC_CART_003,Cart,Remove product from cart,Add a product and click Remove,Product should be removed from the cart,Product was removed from the cart successfully,Pass,High
+TC_CART_004,Cart,Verify cart item details,Open cart after adding a product,Product name price and quantity should be displayed correctly,Product details were displayed correctly,Pass,Medium
+TC_CART_005,Cart,Continue shopping,Open cart and click Continue Shopping,User should return to the products page,User returned to the products page,Pass,Medium

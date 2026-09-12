@@ -1,0 +1,9 @@
+```csv
+Test Case ID,Module,Test Scenario,Test Steps,Expected Result,Actual Result,Status,Priority
+TC_LOGIN_001,Login,Login with valid credentials,Enter valid email and password then click Login,User should be logged in successfully,User logged in successfully,Pass,High
+TC_LOGIN_002,Login,Login with invalid password,Enter valid email and invalid password then click Login,Error message should be displayed,Error message displayed and login was prevented,Pass,High
+TC_LOGIN_003,Login,Login with invalid email,Enter invalid email and valid password then click Login,Error message should be displayed,Error message displayed and login was prevented,Pass,High
+TC_LOGIN_004,Login,Login with empty fields,Leave email and password empty then click Login,Validation messages should be displayed,Username validation error displayed,Pass,Medium
+TC_LOGIN_005,Login,Login with empty password,Enter email and leave password empty then click Login,Password validation message should be displayed,Password validation error displayed,Pass,Medium
+TC_LOGIN_006,Login,Logout after successful login,Login successfully then click Logout,User should be logged out and redirected to login page,User logged out successfully and returned to login page,Pass,High
+```
